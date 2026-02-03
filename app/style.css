@@ -1,0 +1,12 @@
+.home-container {
+    /* background-color: red; */
+    margin-top: 6rem;
+}
+
+.home-container .intro p {
+    font-size: 19px;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: 20px;
+}

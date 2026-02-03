@@ -1,12 +1,11 @@
 "use client";
 import { useState } from "react";
 import Link from "next/link";
-// import './style.css'
+import "./style.css";
 
 const Navbar = () => {
-
   return (
-    <nav className="sticky top-0 z-50 transition-all duration-300 bg-linear-to-r from-emerald-50 to-teal-50 shadow-lg py-3">
+    <nav className="sticky top-0 z-50 transition-all duration-300 bg-linear-to-r from-emerald-200 to-teal-200 shadow-lg py-3">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -37,7 +36,17 @@ const Navbar = () => {
 
           {/* Right Side button */}
           <div className="nav-right-button hidden md:flex items-center space-x-4">
-            <button className="">button</button>
+            <Link href="https://github.com/M-Saad-saif" target="blank">
+              <button>
+                GitHub <i className="ri-github-fill"></i>
+              </button>
+            </Link>
+
+            <Link href="https://github.com/M-Saad-saif" target="blank">
+              <button >
+                GitHub <i className="ri-github-fill"></i>
+              </button>
+            </Link>
           </div>
         </div>
       </div>

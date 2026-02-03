@@ -1,9 +1,15 @@
-/* *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.nav-right-button button{
+    background: #00bc8f;
+    padding: 3px 13px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out;
 }
 
-.nav-right-button{
-    color: black;
-} */
+.nav-right-button button{
+    cursor: pointer;
+}
+
+.nav-right-button button:hover{
+    transform: scale(1.02) translateY(-2px);
+}
