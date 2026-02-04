@@ -32,6 +32,12 @@ const Navbar = () => {
             >
               About
             </Link>
+            <Link
+              href="/generate"
+              className="px-4 py-2 rounded-full text-emerald-800 hover:text-emerald-600 hover:bg-emerald-50 transition-all duration-200 font-medium"
+            >
+              Generate
+            </Link>
           </div>
 
           {/* Right Side button */}

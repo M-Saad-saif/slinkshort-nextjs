@@ -30,11 +30,18 @@ export default function RootLayout({ children }) {
       </head>
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased  min-h-screen`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased relative min-h-160 w-full bg-white `}
+        style={{
+          background: "#ffffff",
+          backgroundImage: `
+            radial-gradient(
+              circle at top center,
+              rgba(56, 193, 189, 0.3),
+              transparent 90%
+            )`,
+        }}
       >
-        
-      
-          <Navbar />
+        <Navbar />
         {children}
       </body>
     </html>
