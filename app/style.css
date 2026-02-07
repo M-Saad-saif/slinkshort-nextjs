@@ -12,6 +12,15 @@
 }
 
 /* =================== Generate page style ========================= */
+.generate-container {
+    background: #d9fff647;
+    width: 50%;
+    justify-self: center;
+    padding: 24px 15px;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #c2c2c2;
+}
+
 .generate-container input {
     border-radius: 5px;
     outline: 2px solid #00916f;
@@ -22,10 +31,28 @@
     padding: 10px 1rem;
     transition: 0.25s;
     width: 29rem;
-    
+
 }
 
 .generate-container input:focus {
     outline-offset: 5px;
     background-color: #fff
+}
+
+.shorturl {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shorturl h2{
+
+    margin-bottom: 9px;
+}
+
+.shorturl code {
+    background: #c6f3e8;
+    padding: 12px 27px;
+    border-radius: 8px;
 }
