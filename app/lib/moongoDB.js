@@ -1,6 +1,6 @@
 import { MongoClient } from 'mongodb'
 
-const uri = 'mongodb://localhost:27017/urlshorten'
+const uri = process.env.MONGODB_URI || 'mongodb://localhost:27017/urlshorten'
 const options = {}
 
 let client

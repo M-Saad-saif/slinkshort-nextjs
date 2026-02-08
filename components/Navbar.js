@@ -14,7 +14,7 @@ const Navbar = () => {
               <i className="ri-links-line"></i>
             </div>
             <span className="text-2xl font-bold bg-linear-to-r from-emerald-700 to-teal-700 bg-clip-text text-transparent">
-              S.LinkShortener
+              ShortLinker
             </span>
           </Link>
 
@@ -44,12 +44,6 @@ const Navbar = () => {
           <div className="nav-right-button hidden md:flex items-center space-x-4">
             <Link href="https://github.com/M-Saad-saif" target="blank">
               <button>
-                GitHub <i className="ri-github-fill"></i>
-              </button>
-            </Link>
-
-            <Link href="https://github.com/M-Saad-saif" target="blank">
-              <button >
                 GitHub <i className="ri-github-fill"></i>
               </button>
             </Link>

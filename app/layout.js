@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "S.LinkShortener - HOME | Your trusted link shortener",
+  title: "S.LinkShortener | Your trusted link shortener",
   description:
     "Building a fast and secure Link Shortener website that converts long URLs into short, shareable links. The project focuses on clean UI, efficient redirection, and scalable backend logic.",
 };

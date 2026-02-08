@@ -1,9 +1,10 @@
+
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import "../style.css";
 
-export default function page() {
+export default function Page() {
   const [url, setUrl] = useState("");
   const [shorturl, setShorturl] = useState("");
   const [generate, setGenerate] = useState("");
